@@ -1,0 +1,15 @@
+.mainContainer{
+    background-image: url("../../../public/images/glassesImage/background.jpg");
+    background-size: cover;
+}
+.col-6{
+    text-align: center;
+}
+.modelBackground{
+    background-image: url("../../../public/images/glassesImage/model.jpg");
+    width: 600px;
+    margin-left: 100px;
+    height: 731px;
+    background-size: cover ;
+
+}

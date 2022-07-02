@@ -5,29 +5,31 @@ import FunctionComponent from './Components/DemoComponet/FunctionComponent';
 import Home from './Components/BTlayout/Home';
 import DataBinding from './Components/DataBinding/DataBinding';
 import HandllingEven from './Components/HandllingEvent/HandllingEven';
-import Stylling from './Components/stylling/Stylling';
 import BaiTapXe from './Components/BaiTapXe/BaiTapXe';
 import ParentProps from './Components/Props/ParentProps';
 import BaiTapProps from './Components/BaiTapProps/BaiTapProps';
 import RenderingWithConditions from './Components/RenderingWithConditions/RenderingWithConditions';
 import State from './Components/State/State';
 import RenderingWithMap from './Components/RenderingWithMap/RenderingWithMap';
+import BTGlass from './Components/BTGlass/BTGlass';
 
 function App() {
   return (
     <div className="App">
      {/* <HandllingEven /> */}
-     <Stylling />
+     {/* <Stylling /> */}
      {/* <BaiTapXe /> */}
      {/* <ParentProps /> */}
      {/* <BaiTapProps /> */}
-     <hr/>
-     <BaiTapXe />
+     {/* <hr/> */}
+     {/* <BaiTapXe /> */}
      {/* <RenderingWithConditions />
-     <hr/>
-    <State /> */}
-    <hr/>
-    <RenderingWithMap/>
+      <hr/>
+      <State /> */}
+       {/* <hr/>
+      <RenderingWithMap/> */}
+      <BTGlass />
+    
     </div>
   );
 }
